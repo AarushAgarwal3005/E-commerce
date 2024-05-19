@@ -6,7 +6,9 @@ import { connect } from 'mongoose';
 import connectDB from './comfig/db.js';
 import authRoutes from './routes/authRoutes.js'
 
+//configure env
 dotenv.config()
+//database config
 connectDB()
 //rest object
 const app=express();
