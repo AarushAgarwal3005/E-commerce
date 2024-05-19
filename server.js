@@ -5,6 +5,7 @@ import morgan from 'morgan'
 import { connect } from 'mongoose';
 import connectDB from './comfig/db.js';
 import authRoutes from './routes/authRoutes.js'
+import mongoose from 'mongoose';
 
 //configure env
 dotenv.config()
