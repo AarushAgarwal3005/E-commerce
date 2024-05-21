@@ -1,4 +1,5 @@
 import express from 'express'
+import mongoose from 'mongoose'
 import {registerController} from '../controller/authController.js'
 const router=express.Router()
 
