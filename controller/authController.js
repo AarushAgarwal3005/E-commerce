@@ -115,7 +115,7 @@ export const loginController = async (req, res) => {
       });
     }
     //check user
-    const user = await userModel.findOne({ email });
+    const user = await usermodel.findOne({ email });
     if (!user) {
       return res.status(404).send({
         success: false,
